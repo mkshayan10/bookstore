@@ -99,8 +99,8 @@ const Footer = () => {
     <footer className="footer">
       <p>© 2025 Book Store | All Rights Reserved</p>
       <p>
-        <a href="/privacy">Privacy Policy</a> | 
-        <a href="/terms"> Terms of Use</a>
+        {/* <a href="/privacy">Privacy Policy</a> | 
+        <a href="/terms"> Terms of Use</a> */}
       </p>
     </footer>
   );

@@ -15,12 +15,12 @@ import ScrollToTop from "./assets/components/ScrollToTop";
 import LiteraryTrip from "./assets/components/pages/LiteraryTrip";
 import BeachBooks from "./assets/components/pages/BeachBooks";
 import NonFictionPage from "./assets/components/pages/NonFictionPage";
-import About from "./assets/components/about";
+import About from "./assets/components/About";
 import Contact from "./assets/components/Contact";
-import BooksPage from "./assets/components/BooksPage";   // ✅ use BooksPage
+import BooksPage from "./assets/components/BooksPage";   
 import CartPage from "./assets/components/CartPage";
 import LoginPage from "./assets/components/LoginPage";
-import CategoryPage from "./assets/components/pages/CategoryPage"; // ✅ NEW IMPORT
+import CategoryPage from "./assets/components/pages/CategoryPage"; 
 
 function App() {
   const [cart, setCart] = useState([]);

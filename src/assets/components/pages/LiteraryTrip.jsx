@@ -32,7 +32,7 @@ const LiteraryTrip = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_15_9780593513033.jpg"
+          src="/imgi_15_9780593513033.jpg"
           alt="The Thursday Murder Club"
           className="book-image"
         />
@@ -66,7 +66,7 @@ const LiteraryTrip = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_15_9780593653241.jpg"
+          src="/imgi_15_9780593653241.jpg"
           alt="We Solve Murders"
           className="book-image"
         />
@@ -96,7 +96,7 @@ const LiteraryTrip = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_17_9780593549223.jpg"
+          src="/imgi_17_9780593549223.jpg"
           alt="The Thursday Murder Club"
           className="book-image"
         />
@@ -126,7 +126,7 @@ const LiteraryTrip = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_18_9780593474020.jpeg"
+          src="/imgi_18_9780593474020.jpeg"
           alt="The Thursday Murder Club"
           className="book-image"
         />

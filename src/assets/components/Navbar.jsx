@@ -17,7 +17,7 @@ const Navbar = ({ onSearch, cartCount }) => {
   return (
     <header className="nav">
       <div className="nav-left">
-        <img src="public/logo.png.png" alt="logo" className="nav-logo" />
+        <img src="/logo.png.png" alt="logo" className="nav-logo" />
         <h1 className="nav-brand">TheBookStore</h1>
       </div>
 
@@ -37,12 +37,12 @@ const Navbar = ({ onSearch, cartCount }) => {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <button type="submit" className="search-btn">
-            <img src="public/imgi_10_nav-search.svg" alt="search" />
+            <img src="/imgi_10_nav-search.svg" alt="search" />
           </button>
         </form>
 
         <button className="nav-cart" onClick={() => navigate("/cart")}>
-          <img src="public/download.svg" alt="cart" className="cart-icon" />
+          <img src="/download.svg" alt="cart" className="cart-icon" />
           <span className="cart-count">{cartCount}</span>
         </button>
 

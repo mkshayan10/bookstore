@@ -14,7 +14,7 @@ const NonFictionPage = () => {
       {/* Banner Section */}
       <div className="banner">
         <img
-          src="public/imgi_14_PRH_ComingSoonFall-1200x628-Nonfiction.jpg"
+          src="/imgi_14_PRH_ComingSoonFall-1200x628-Nonfiction.jpg"
           alt="Nonfiction Banner"
           className="banner-img"
         />
@@ -44,7 +44,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="public/imgi_18_9780593886113.jpeg"
+            src="/imgi_18_9780593886113.jpeg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -70,7 +70,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="public/imgi_18_9780593886113.jpeg"
+            src="/imgi_18_9780593886113.jpeg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -95,7 +95,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="public/imgi_18_9780593886113.jpeg"
+            src="/imgi_18_9780593886113.jpeg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -120,7 +120,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="public/imgi_18_9780593886113.jpeg"
+            src="/imgi_18_9780593886113.jpeg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -145,7 +145,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="public/imgi_18_9780593886113.jpeg"
+            src="/imgi_18_9780593886113.jpeg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -170,7 +170,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="public/imgi_18_9780593886113.jpeg"
+            src="/imgi_18_9780593886113.jpeg"
             alt="Strong Ground"
             className="book-img"
           />

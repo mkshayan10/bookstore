@@ -16,7 +16,7 @@ const BeachBooks = () => {
       {/* Card content */}
       <div className="beachbooks-card">
         <img
-          src="public/imgi_13_Kids-Corner-Badge.webp" // replace with your Kids' Corner logo image
+          src="/imgi_13_Kids-Corner-Badge.webp" // replace with your Kids' Corner logo image
           alt="Kids Corner"
           className="kids-logo"
         />
@@ -52,7 +52,7 @@ const BeachBooks = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_14_9781963183290.jpg"
+          src="/imgi_14_9781963183290.jpg"
           alt="The Thursday Murder Club"
           className="book-image"
         />
@@ -82,7 +82,7 @@ const BeachBooks = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_18_9780593886113.jpeg"
+          src="/imgi_18_9780593886113.jpeg"
           alt="The Thursday Murder Club"
           className="book-image"
         />
@@ -112,7 +112,7 @@ const BeachBooks = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_20_9780525644217.jpg"
+          src="/imgi_20_9780525644217.jpg"
           alt="The Thursday Murder Club"
           className="book-image"
         />
@@ -142,7 +142,7 @@ const BeachBooks = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_22_9781664340190.jpeg"
+          src="/imgi_22_9781664340190.jpeg"
           alt="The Thursday Murder Club"
           className="book-image"
         />
@@ -173,7 +173,7 @@ const BeachBooks = () => {
       <div className="book-details">
         {/* Book Cover */}
         <img
-          src="public/imgi_25_9781524771942.jpeg"
+          src="/imgi_25_9781524771942.jpeg"
           alt="The Thursday Murder Club"
           className="book-image"
         />

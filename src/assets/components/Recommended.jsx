@@ -8,14 +8,14 @@ const Recommended = () => {
 
   const books = [
     {
-      image: "public/imgi_10_Thursday_Murder_Club_HP_1200x628.jpg",
+      image: "/imgi_10_Thursday_Murder_Club_HP_1200x628.jpg",
       title: "Murder Club",
       description:
         "Hear from the booksellers behind these trailblazing bookstores.",
       link: "/literary-trip"
     },
     {
-      image: "public/imgi_11_Kids-Trending-Boredom-Busting-Read-Down_site_1200x628.jpg",
+      image: "/imgi_11_Kids-Trending-Boredom-Busting-Read-Down_site_1200x628.jpg",
       title: "BEACH BOOKS FOR KIDS",
       description:
         "Dive into these picture books about the beach, ocean, sea life, and...",

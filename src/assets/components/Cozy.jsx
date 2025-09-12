@@ -13,7 +13,7 @@ const Cozy = () => {
     <div className="box">
       <div className="left">
         <img 
-          src="public/imgi_14_PRH_ComingSoonFall-1200x628-Nonfiction.jpg" 
+          src="/imgi_14_PRH_ComingSoonFall-1200x628-Nonfiction.jpg" 
           alt="Books" 
           className="img" 
         />

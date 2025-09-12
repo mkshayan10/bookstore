@@ -20,7 +20,7 @@ const BookSection = () => {
           </div>
           <div className="book-banner">
             <img
-              src="public/imgi_14_Summer_Readers_Picks_HP_1200x628.jpg"
+              src="/imgi_14_Summer_Readers_Picks_HP_1200x628.jpg"
               alt="Book Banner"
             />
           </div>
@@ -33,7 +33,7 @@ const BookSection = () => {
             <h2 className="readmore-title">The Silent Summer</h2>
             <p className="readmore-author">by Jane Doe</p>
             <img
-              src="public/imgi_14_Summer_Readers_Picks_HP_1200x628.jpg"
+              src="/imgi_14_Summer_Readers_Picks_HP_1200x628.jpg"
               alt="Book Cover"
               className="readmore-img"
             />

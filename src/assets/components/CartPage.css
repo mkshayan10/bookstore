@@ -1,0 +1,35 @@
+.cart-page {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.cart-item img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h2 {
+  margin: 0;
+}
+
+.cart-info button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #ff5722;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

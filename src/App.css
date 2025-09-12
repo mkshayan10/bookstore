@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #860a0a;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  margin-top: 56px; /* navbar height */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* 🔒 disables scrolling */
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer down */
+}
+
+.ft-container {
+  background: #111;
+  color: #ddd;
+  padding: 50px 20px;
+  font-family: "Poppins", sans-serif;
+}

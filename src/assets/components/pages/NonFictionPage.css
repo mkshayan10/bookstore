@@ -1,0 +1,112 @@
+/* === NonFictionPage.css === */
+
+.nonfiction-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: #fff;
+  max-width: 80%;
+}
+
+.banner-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Book Section */
+.book-section {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  background-color: #edebe9;
+  
+}
+
+.book-info {
+  flex: 2;
+}
+
+.book-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.book-info p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #444;
+}
+
+/* Book Cover */
+.book-cover {
+  flex: 1;
+  text-align: right;
+}
+
+.book-img {
+  max-width: 180px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.book-img:hover {
+  transform: scale(1.05);
+}
+
+/* Add to Cart Button */
+.add-cart-btn {
+  margin-top: 12px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #ff5722;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.add-cart-btn:hover {
+  background: #e64a19;
+  transform: translateY(-2px);
+}

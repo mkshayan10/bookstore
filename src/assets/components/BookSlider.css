@@ -1,0 +1,179 @@
+/* --- Book Slider Wrapper --- */
+.slider-wrap {
+  position: relative;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.rec-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* --- Arrow Buttons --- */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.3s;
+}
+.arrow:hover {
+  background: rgba(0,0,0,0.8);
+}
+.arrow.left { left: 10px; }
+.arrow.right { right: 10px; }
+
+/* --- Slider Row --- */
+.slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.slider::-webkit-scrollbar { display: none; }
+
+/* --- Book Card --- */
+.card {
+  position: relative;
+  min-width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* --- Overlay with Quick View --- */
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.6);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* --- Quick View Button --- */
+.quick-view-btn1 {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.quick-view-btn1:hover {
+  background: #ff4040;
+  transform: scale(1.05);
+}
+
+/* --- Modal Overlay --- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  max-width: 700px;
+  width: 90%;
+  animation: slideUp 0.4s ease;
+  position: relative;
+}
+
+.modal-content img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.modal-info {
+  flex: 1;
+}
+
+.modal-info h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  margin: 10px 0;
+}
+
+/* --- Add to Cart Button --- */
+.add-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+.add-btn:hover {
+  background: #45a049;
+}
+
+/* --- Close Button --- */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+.close-btn:hover { color: red; }
+
+/* --- Animations --- */
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

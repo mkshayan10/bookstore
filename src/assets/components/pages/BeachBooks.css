@@ -1,0 +1,147 @@
+/* ====== General Section ====== */
+.beachbooks-section {
+  position: relative;
+  width: 100%;
+  background: #0c1a3c url("public/imgi_1_Fall-Preview-Picture-Books-850x607-1.jpg") repeat; /* optional doodle bg */
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ====== Banner ====== */
+.beachbooks-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background:  url("/images/beach-bg.png") repeat;
+  z-index: 0;
+}
+
+/* ====== Kids Corner Card ====== */
+.beachbooks-card {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+  max-width: 950px;
+  margin: 20px auto 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.kids-logo {
+  display: block;
+  margin: 0 auto 15px;
+  max-height: 70px;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #d35400;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.beachbooks-card h2 {
+  font-size: 2rem;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.beachbooks-card small {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.beachbooks-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.source {
+  font-style: italic;
+}
+
+.source a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ====== Book Details Section ====== */
+.book-title {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.author {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.book-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 900px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+  max-width: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.book-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.book-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 15px 0;
+}
+
+/* ====== Button ====== */
+.add-cart-btn {
+  padding: 12px 24px;
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.add-cart-btn:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}

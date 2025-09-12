@@ -1,0 +1,53 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1200px;   /* wider container */
+  margin: 0 auto;      /* center horizontally */
+}
+
+.left {
+  flex: 1.2;   /* give image more space */
+}
+
+.img {
+  width: 100%;
+  max-width: 700px;  /* bigger image */
+  border-radius: 8px;
+}
+
+.right {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.title {
+  font-size: 32px;  /* bigger heading */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.txt {
+  font-size: 18px;  /* slightly bigger text */
+  margin-bottom: 25px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: 2px solid #ff6600;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff6600;
+  color: #fff;
+}

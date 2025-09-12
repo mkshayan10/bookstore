@@ -1,0 +1,163 @@
+/* ===== General Layout ===== */
+.book-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  background: linear-gradient(135deg, #f5f7fa, #e9eff5);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  gap: 40px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.book-text {
+  flex: 1;
+  animation: slideInLeft 1s ease;
+}
+
+.book-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.book-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.book-btn {
+  background: #ff6b6b;
+  border: none;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(255, 107, 107, 0.3);
+}
+
+.book-btn:hover {
+  background: #e63946;
+  transform: translateY(-2px);
+}
+
+/* ===== Banner Image ===== */
+.book-banner {
+  flex: 1;
+  text-align: right;
+  animation: slideInRight 1s ease;
+}
+
+.book-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+}
+
+.book-banner img:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Read More Section ===== */
+.readmore-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  padding: 40px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.readmore-card {
+  background: #fff;
+  max-width: 700px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: zoomIn 0.7s ease;
+}
+
+.readmore-subtitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.readmore-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin: 5px 0;
+}
+
+.readmore-author {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.readmore-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+}
+
+.readmore-img:hover {
+  transform: scale(1.03);
+}
+
+.readmore-content {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin: 20px 0 30px;
+}
+
+/* Back Button */
+.back-btn {
+  background: #171717;
+  box-shadow: 0 6px 15px rgba(11, 11, 11, 0.3);
+  color: black;
+}
+
+.back-btn:hover {
+  background: #227093;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}

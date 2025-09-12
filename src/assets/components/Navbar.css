@@ -1,0 +1,145 @@
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 90px;
+  background: #fc5006;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Left: Logo */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  width: 38px;
+  height: 38px;
+}
+
+.nav-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e0e0e;
+}
+
+/* Center: Links */
+.nav-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+}
+
+.nav-links li {
+  font-size: 16px;
+  cursor: pointer;
+  color: #040404;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links li:hover {
+  color: #161515;
+  transform: translateY(-2px);
+}
+
+/* Right section */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search */
+.nav-search {
+  display: flex;
+  align-items: center;
+  background: #f8f9f8;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+
+.nav-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 6px;
+  font-size: 14px;
+  width: 160px;
+}
+
+.search-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.search-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Cart */
+.nav-cart {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: rgb(254, 255, 255);
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;   /* removes underline */
+  color: #333;             /* normal text color */
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fefefd;          /* highlight on hover */
+}
+.nav-login {
+  background: linear-gradient(135deg, #f73505, #161616);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-login:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: scale(1.05);
+}

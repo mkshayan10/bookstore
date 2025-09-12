@@ -4,7 +4,7 @@ import "./CategoryPage.css";
 
 const categoryDetails = {
   "Literary Fiction": {
-    img: "/imgi_48_triad-literary-fiction.png",
+    img: "/imgi_15_Botanic_Summer_HP_1200x628_cozyFant.jpg",
     desc: "Literary fiction is known for its depth, character development, and thought-provoking themes. It focuses on style, symbolism, and the exploration of the human condition.",
     features: [
       "Deep character development",
@@ -19,7 +19,7 @@ const categoryDetails = {
   },
 
   "Teen & Young Adult": {
-    img: "/imgi_49_triad-history.png",
+    img: "/imgi_11_1200x628_Audiobook_Originals-1.jpg",
     desc: "Teen & YA fiction explores friendships, identity, first loves, and personal struggles. Loved by teens and adults for its relatability and fast-paced storytelling.",
     features: [
       "Relatable teenage protagonists",
@@ -34,7 +34,7 @@ const categoryDetails = {
   },
 
   Romance: {
-    img: "/imgi_50_triad-womens-fiction.png",
+    img: "/imgi_6_PRH_Site_1200x628_sept25.jpg",
     desc: "Romance novels focus on love stories that captivate readers with emotional connections and heartfelt journeys, often ending on a hopeful or happy note.",
     features: [
       "Themes of love and relationships",
@@ -49,7 +49,7 @@ const categoryDetails = {
   },
 
   "Biography & Memoir": {
-    img: "/imgi_51_triad-teen-young-adult.png",
+    img: "/imgi_17_Botanic_Summer_HP_1200x628_Paperbacks.jpg",
     desc: "Biographies and memoirs give insight into real lives, exploring struggles, achievements, and experiences of notable figures or everyday people.",
     features: [
       "True life stories",
@@ -64,7 +64,7 @@ const categoryDetails = {
   },
 
   "Spanish Language Fiction": {
-    img: "/imgi_53_triad-spanish-language-fiction.png",
+    img: "/imgi_10_Botanic_Summer_HP_1200x628_CharlesM.jpg",
     desc: "Spanish Language Fiction showcases the richness of Hispanic literature, blending magical realism, cultural traditions, and contemporary storytelling.",
     features: [
       "Rich cultural heritage",
@@ -79,7 +79,7 @@ const categoryDetails = {
   },
 
   Nonfiction: {
-    img: "/imgi_52_triad-biography-memoir.png",
+    img: "/imgi_14_PRH_Site_1200x628_danBrown2.jpg",
     desc: "Nonfiction provides factual and informative content, covering history, science, philosophy, and real-world issues with accuracy and depth.",
     features: [
       "Based on real facts and events",

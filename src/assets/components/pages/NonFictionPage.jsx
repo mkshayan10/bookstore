@@ -70,7 +70,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="/imgi_18_9780593886113.jpeg"
+            src="/imgi_77_9780812983814.jpg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -95,7 +95,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="/imgi_18_9780593886113.jpeg"
+            src="public/imgi_76_9780525565703.jpg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -120,7 +120,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="/imgi_18_9780593886113.jpeg"
+            src="public/imgi_73_9780593641538.jpg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -145,7 +145,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="/imgi_18_9780593886113.jpeg"
+            src="public/imgi_70_9780593820285.jpg"
             alt="Strong Ground"
             className="book-img"
           />
@@ -170,7 +170,7 @@ const NonFictionPage = () => {
         </div>
         <div className="book-cover">
           <img
-            src="/imgi_18_9780593886113.jpeg"
+            src="public/imgi_69_9780593498798.jpg"
             alt="Strong Ground"
             className="book-img"
           />
